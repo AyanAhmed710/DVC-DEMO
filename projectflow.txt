@@ -1,4 +1,6 @@
 Create a git repo and clone it
 Create Code.py and add code to it
 Do a git-commit-push before initiating DVC
-
+initiate dvc
+#pip install dvc
+dvc  init (includes dvcignore file as well)
