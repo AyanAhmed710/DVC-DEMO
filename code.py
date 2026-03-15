@@ -6,10 +6,14 @@ data = {"Name" : ["Ali" , "Qasim" , "labeed"],
         "place" : ["Lahore" , "Karachi" , "Faislabad"]}
 
 new_row={"Name" : "Alice" ,"Age" :3 , "place" : "Turkey"}
+new_row_2={"Name" : "Maria" ,"Age" :3 , "place" : "Turkey"}
 
 df=pd.DataFrame(data)
 
 df.loc[len(df.index)] = new_row
+df.loc[len(df.index)] = new_row_2
+
+
 
 data_dir = "data"
 
