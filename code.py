@@ -5,7 +5,11 @@ data = {"Name" : ["Ali" , "Qasim" , "labeed"],
         "Age" : [2,3,4],
         "place" : ["Lahore" , "Karachi" , "Faislabad"]}
 
+new_row={"Name" : "Alice" ,"Age" :3 , "place" : "Turkey"}
+
 df=pd.DataFrame(data)
+
+df.loc[len(df.index)] = new_row
 
 data_dir = "data"
 
